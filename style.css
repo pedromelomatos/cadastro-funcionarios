@@ -1,0 +1,49 @@
+*{
+    font-family: "Jost", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#central{
+    height: 500px;
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+#superior{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 500px;
+}
+#central #titulo{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+input{
+    height: 40px;
+    font-family: "Jost", sans-serif;
+}
+
+#inputemail{
+    width: 500px;
+}
+
+#inputsubmit{
+    width: 500px;
+    background-color: #02029F;
+    color: white;
+    
+}
+
+#inputsenha{
+    width: 500px;
+}
